@@ -99,3 +99,13 @@ margin-top: 30px;
   background: #EAEAEA;
   color: #676767;
 }
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
