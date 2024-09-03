@@ -9,7 +9,7 @@ const LoginSignUp = () =>{
   return(
   <div className="container">
     <div className="header">
-      <div className="tex">{action}</div>
+      <div className="text">{action}</div>
       <div className="underline"></div>
     </div>
     <div className="inputs">
