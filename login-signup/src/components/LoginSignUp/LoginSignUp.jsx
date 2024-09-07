@@ -14,7 +14,7 @@ const LoginSignUp = () =>{
   const [Password,setPassword]=useState('')
   const [error, setError,] = useState(''); //Initialise error message
 const [success,setSuccess]= useState('')
-  const handleClick=(e)=>{
+  const onClick=(e)=>{
     e.preventDefault();
        // Validation checks
        if (action !== "Sign Up" && !Name.trim()) {
@@ -40,7 +40,7 @@ const [success,setSuccess]= useState('')
 
 
   return(
-  <div onSubmit={handleClick} className="container">
+  <div onSubmit={onClick} className="container">
     <div className="header">
       <div className="text">{action}</div>
       <div className="underline"></div>
